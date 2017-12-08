@@ -9,34 +9,54 @@ body {
 }
 
 h1 {
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  width: 900px
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	max-width: 900px;
+	margin-top: auto;
+	margin-bottom: auto;
   }
 
   .container {
-      background-color: #0B3861
       width: 100%;
       margin: 0 auto;
     }
 
+    .header {
+	background-color: #000000;
+	width: 100%;
+	margin: 0 auto;
+      }
+
 h2 {
     margin-left: auto;
     margin-right: auto;
-    width: 900px
+    width: 95%; max-width: 900px;
     }
 
 P {
   margin-left: auto;
   margin-right: auto;
-  width: 900px
+  width: 95%; max-width: 900px;
+  line-height: 170%;
   }
+
+  IMG.displayed {
+      /*
+      display: block;
+
+      margin: 0 auto;
+      width: 1500px;
+      */
+      width: 100%;
+      height: auto;
+    }
 
 li {
   margin-left: auto;
   margin-right: auto;
-  width: 900px
+  width: 900px;
   }
 
 .container {
