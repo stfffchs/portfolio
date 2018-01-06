@@ -61,6 +61,12 @@ h6 {
 	  font-style: normal
 }
 
+ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  font-style: normal
+}
+
 .center {
 	text-align: center;
 	align-content: center;
