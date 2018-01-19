@@ -1,0 +1,135 @@
+body {
+  background-color: whitesmoke;
+  font-family: verdana;
+	line-height: 1.6em;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 4.5em;
+	line-height: 1.2em;
+	color: darkblue;
+	font-size-adjust: auto;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 2.5em;
+	font-style: normal;
+  color: whitesmoke;
+  text-align: left;
+}
+
+h3 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+	font-style: normal;
+  color: whitesmoke;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7em;
+  font-style: normal;
+  color: gray;
+}
+
+h5,a {
+  font-family: 'Amatic SC', normal;
+  font-size: 1.3em;
+  font-style: normal;
+  color: darkblue;
+  line-height: 30%;
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+  font-style: normal;
+  color: gray;
+  line-height: 0.2em;
+  margin-top: 0.6em;
+}
+
+	p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+	  font-style: normal
+}
+
+ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  font-style: normal
+}
+
+.center {
+	text-align: center;
+	align-content: center;
+}
+
+.header {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	width: 90%; max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4%; max-padding: 40px;
+	background-color: cornflowerblue;
+}
+
+.footer {
+	width: 90%; max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4em;
+}
+
+.img {
+	width: 100%; max-width: 800px;
+  position: center;
+}
+
+.top {
+	width: 100%; max-width: 800px; height: 30px;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav {
+  position: fixed;
+  margin-top: 1em;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+ #column-left{
+  width: 90%; max-width: 200px;
+	float: left;
+  margin-top: 0;
+  padding-top: 0;
+
+
+}
+
+#column-right{
+	column-width: 800px;
+  position: right;
+}
+
+#a{
+  a:link { text-decoration:none}
+a:visited { text-decoration:none}
+a:active { text-decoration:none}
+a:hover {text-decoration:underline}
+}
